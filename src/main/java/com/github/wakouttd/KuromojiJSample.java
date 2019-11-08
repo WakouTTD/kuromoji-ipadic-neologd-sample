@@ -10,7 +10,7 @@ import org.codelibs.neologd.ipadic.lucene.analysis.ja.JapaneseTokenizer;
 import org.codelibs.neologd.ipadic.lucene.analysis.ja.tokenattributes.PartOfSpeechAttribute;
 
 
-public class KuromojiSample {
+public class KuromojiJSample {
 
     private List<String> kuromojineologd(String src) {
         List<String> results = new ArrayList<>();
@@ -34,7 +34,7 @@ public class KuromojiSample {
     }
 
     public static void main(String[] args) {
-        KuromojiSample sample = new KuromojiSample();
+        KuromojiJSample sample = new KuromojiJSample();
         sample.execute();
     }
 
